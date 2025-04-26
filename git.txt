@@ -1,10 +1,12 @@
 git commands:
 Branch: main
-1. First, Make a Commit:
+1. First, Stage the changes
+git add .
+2. Second, Make a Commit:
 git commit -m "Inital commit"
-2. Then, Push it to the main branch:
+3. Then, Push it to the main branch:
 git push origin main
-3. Extras: (Optional case):
+4. Extras: (Optional case):
 git push -u origin main ( Push and set-up upstream)
 
 [PS: Use terminal only] *if in VS-Code
