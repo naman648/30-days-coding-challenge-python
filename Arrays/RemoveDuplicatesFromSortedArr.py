@@ -12,4 +12,3 @@ def removeDuplicates(arr):
 arr = [1, 2, 2, 3, 4, 4, 4, 5, 5]
 result = removeDuplicates(arr)
 print(result)
-print(arr)

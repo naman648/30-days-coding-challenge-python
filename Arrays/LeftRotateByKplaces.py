@@ -9,7 +9,7 @@ def LeftRotate(arr,k):
 
     # Slice and concatenate
     # This creates a new list, it does not modify the original in-place
-    rotated_arr = arr[k:] + arr[:k]
+    rotated_arr = arr[k:] + arr[:k]           # 4567 + 123 
     return rotated_arr
 arr = [1,2,3,4,5,6,7]
 k = 3

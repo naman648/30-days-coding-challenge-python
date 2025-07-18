@@ -1,5 +1,7 @@
 def largeElement(arr):
     n = len(arr)
+    if n == 0:
+        return None
     if n==1:
         return arr
     large = arr[0]
